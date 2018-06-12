@@ -1,0 +1,66 @@
+body {
+    background-image: url("background-iceberg.gif");
+}
+
+.bodysize {
+
+text-align: center;
+}
+
+#heading {
+    font-size: 50px;
+    font-family: fantasy;
+    background-color: brown;
+    color: white;
+}
+
+
+.score{
+    background-color:lightblue;
+    /* border: 1px; */
+    width: 80%;
+    border: 2px solid green;
+    padding: 50px;
+    margin: 25px;
+    height: 70%;
+    position: relative;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.winsloses{
+    background-color: lightblue;
+    /* border: 1px; */
+    width: 80%;
+    border: 2px solid green;
+    /* padding: 25px; */
+    margin: 25px;
+    height: 20%;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.winnumber{
+    /* position: relative; */
+    text-align: center;
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+   
+    /* background-color: DodgerBlue; */
+  }
+
+  .flex-container > div {
+    margin : 40px;
+
+  }
+
+  #resultP {
+      color : red;
+      font-family: fantasy;
+      font-size: 30px;
+  }
